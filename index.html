@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Studio Âmbito - Arquitetura e Urbanismo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Cabeçalho -->
+  <header>
+    <img src="logo-studio-ambito.png" alt="Studio Âmbito" class="logo">
+    <h1>Projetos Arquitetônicos e Urbanísticos</h1>
+    <p>Inovação e eficiência para empreendimentos comerciais, industriais e residenciais</p>
+    <a href="#formulario" class="cta-btn">Solicite um Projeto</a>
+  </header>
+
+  <!-- Seção Sobre -->
+  <section class="about">
+    <h2>Sobre o Studio Âmbito</h2>
+    <p>
+      O Studio Âmbito, marca do Grupo Âmbito Engenharia, é especializado em projetos arquitetônicos e urbanísticos para os setores industrial, comercial e residencial. Atendemos empreendimentos como atacarejos, supermercados, centros de distribuição, condomínios e loteamentos.
+    </p>
+    <div class="addresses">
+      <h3>Localização</h3>
+      <ul>
+        <li><strong>Escritório Central:</strong> Avenida Castelo Branco, 1019, Centro Sul, Várzea Grande - MT</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Seção de Serviços -->
+  <section class="services">
+    <h2>Nossos Serviços</h2>
+    <div class="service-box">
+      <img src="viabilidade.jpg" alt="Estudos de Viabilidade">
+      <h3>Estudos de Viabilidade</h3>
+      <p>Análise de viabilidade do terreno, considerando restrições legais, ambientais e de zoneamento.</p>
+    </div>
+    <div class="service-box">
+      <img src="projeto.jpg" alt="Projetos Arquitetônicos e Aprovação">
+      <h3>Projetos Arquitetônicos e Aprovação</h3>
+      <p>Desenvolvimento e adaptação de projetos arquitetônicos personalizados com acompanhamento para aprovação em órgãos fiscalizadores.</p>
+    </div>
+    <div class="service-box">
+      <img src="projetos-complementares.jpg" alt="Projetos Complementares">
+      <h3>Projetos Complementares</h3>
+      <p>Elaboração de projetos hidráulico, elétrico, de prevenção a incêndio e SPDA integrados ao plano arquitetônico principal.</p>
+    </div>
+    <div class="service-box">
+      <img src="alvara.jpg" alt="Aprovação para Início de Obras">
+      <h3>Aprovação para Início de Obras</h3>
+      <p>Obtenção de alvarás e licenças de construção para garantir a conformidade legal antes do início das obras.</p>
+    </div>
+    <div class="service-box">
+      <img src="fiscalizacao.jpg" alt="Fiscalização da Construção">
+      <h3>Fiscalização da Construção</h3>
+      <p>Supervisão contínua para assegurar que a obra siga os projetos aprovados, com gestão da qualidade e controle dos prazos.</p>
+    </div>
+    <div class="service-box">
+      <img src="documentacao.jpg" alt="Liberação de Documentos">
+      <h3>Liberação de Documentos e Autorização de Funcionamento</h3>
+      <p>Emissão do "Habite-se" e demais documentos necessários para que o empreendimento esteja apto a operar.</p>
+    </div>
+    <div class="service-box">
+      <img src="layout.jpg" alt="Concepção e Layoutização">
+      <h3>Concepção e Layoutização</h3>
+      <p>Desenvolvimento de layout de processos industriais e fluxogramas para otimização de espaços, além da criação da identidade visual da marca.</p>
+    </div>
+  </section>
+
+  <!-- Missão, Visão e Valores -->
+  <section class="mission">
+    <h2>Nossa Missão, Visão e Valores</h2>
+    <p><strong>Missão:</strong> Transformar ideias em projetos arquitetônicos inovadores e funcionais.</p>
+    <p><strong>Visão:</strong> Ser referência no setor de arquitetura e urbanismo, oferecendo soluções personalizadas para cada cliente.</p>
+    <p><strong>Valores:</strong> Inovação, conformidade legal, eficiência, personalização e compromisso com o cliente.</p>
+  </section>
+
+  <!-- Formulário de Contato -->
+  <section class="contact" id="formulario">
+    <h2>Solicite um Projeto</h2>
+    <p>Preencha o formulário abaixo e nossa equipe entrará em contato:</p>
+    <form id="lead-form">
+      <label for="nome">Nome:</label>
+      <input type="text" id="nome" name="nome" placeholder="Seu Nome" required>
+      
+      <label for="email">E-mail:</label>
+      <input type="email" id="email" name="email" placeholder="Seu E-mail" required>
+      
+      <label for="telefone">Telefone:</label>
+      <input type="tel" id="telefone" name="telefone" placeholder="Seu Telefone" required>
+      
+      <label for="mensagem">Mensagem:</label>
+      <textarea id="mensagem" name="mensagem" placeholder="Descreva sua necessidade" required></textarea>
+      
+      <button type="submit" id="enviar-btn">Enviar</button>
+      <p id="feedback" class="feedback"></p>
+    </form>
+  </section>
+
+  <!-- Rodapé -->
+  <footer>
+    <p>© 2025 Studio Âmbito. Todos os direitos reservados.</p>
+  </footer>
+
+  <!-- Botão Flutuante do WhatsApp -->
+  <a href="https://wa.me/5565999348974?text=Desejo%20solicitar%20um%20projeto%20arquitetônico" target="_blank" class="whatsapp-flutuante">
+    Fale Conosco no WhatsApp
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
