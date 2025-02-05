@@ -198,7 +198,7 @@ form button:hover {
 
 /* Nossa Missão, Visão e Valores */
 .mission {
-  background: linear-gradient(135deg, #f9f9f9, #e9f5e9);  /* Mantém um fundo clean */
+  background: linear-gradient(135deg, #f9f9f9, #e9f5e9);
   padding: 60px 40px;
   border-top: 5px solid #d4af37;
   border-bottom: 5px solid #d4af37;
@@ -282,7 +282,7 @@ footer {
   }
   form {
       width: 90%;
-      padding: 20px 20px;
+      padding: 20px 20px;  /* Reduzido para caber na tela */
   }
   form input,
   form textarea {
